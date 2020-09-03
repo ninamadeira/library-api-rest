@@ -36,7 +36,7 @@ public class SwaggerConfig {
 
     private Contact contact(){
         return new Contact("Nina Madeira",
-                "http://github.com/ninamadeiras",
+                "http://github.com/ninamadeira",
                 "nina.madeira@gmail.com");
     }
 }

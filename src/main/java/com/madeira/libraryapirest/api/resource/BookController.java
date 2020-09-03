@@ -25,16 +25,13 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/books")
 @RequiredArgsConstructor
-@Api("Book API")
+@Api("Loan API")
 @Slf4j
 public class BookController {
-
 
     private final BookService service;
     private final ModelMapper modelMapper;
     private final LoanService loanService;
-
-
 
 
     @PostMapping
@@ -46,7 +43,6 @@ public class BookController {
         entity = service.save(entity);
         return modelMapper.map(entity, BookDTO.class);
     }
-
 
     @GetMapping("{id}")
     @ApiOperation("Get a book details by id")

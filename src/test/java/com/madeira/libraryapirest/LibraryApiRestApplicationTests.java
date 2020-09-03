@@ -8,6 +8,7 @@ class LibraryApiRestApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Teste");
 	}
 
 }

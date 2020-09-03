@@ -8,6 +8,8 @@ import com.madeira.libraryapirest.model.entity.Book;
 import com.madeira.libraryapirest.model.entity.Loan;
 import com.madeira.libraryapirest.service.BookService;
 import com.madeira.libraryapirest.service.LoanService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
